@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.801);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15vh;
+  color: rgb(0, 0, 0);
+  font-family: 'poppins', sans-serif;
+  text-shadow: 0px 0px 6px rgb(172, 75, 11);
+  text-decoration: underline;
+  text-decoration-thickness: 6px;
+  font-size: 60px;
+  margin-top: 30px;
+  font-weight: 800;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin-top: 50px;
+  justify-content: space;
+}
+
+.tab1 {
+  border: 2px solid black;
+  margin: 5px;
+  background: linear-gradient(90deg, rgb(56, 133, 85), rgb(233, 156, 83));
+  box-shadow: 1px 1px 15px rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+  font-weight: 200;
+}
+
+.head {
+  font-size: 25px;
+}
+
+.p {
+  font-size: 18px;
+  background: transparent;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: center;
+
+}
+
+.image img {
+
+  border: 2px solid rgba(255, 255, 255, 0.123);
+  background-color: rgba(255, 255, 255, 0.171);
+  box-shadow: 1px 1px 10px rgb(2, 139, 2);
+  margin-top: 100px;
+  width: 50%;
+  margin-bottom: 100px;
+}
+
+.differ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  border-radius: 25%;
+}
+
+.tab {
+  border: 2px solid black;
+  margin: 5px;
+  border: 3px solid rgba(255, 255, 255, 0.123);
+  background-color: rgba(77, 77, 77, 0.171);
+  box-shadow: 1px 1px 10px rgb(2, 139, 2);
+  color: rgb(0, 0, 0);
+  width: 50%;
+  border: 2px solid rgb(255, 255, 255);
+  font-weight: 200;
+  margin-bottom: 90px;
+}
+
+th,
+td {
+  padding: 4px;
+  margin: 2px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgba(77, 77, 77, 0.171);
+}
+
+th {
+  text-align: center;
+  font-weight: 900;
+  text-shadow: 0px 0px 8px rgb(53, 187, 0);
+}
+
+.point li {
+  background: transparent;
+  background-color: rgba(77, 77, 77, 0.171);
+  list-style: none;
+}
+
+.k {
+  background-color: black;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 600;
+  text-shadow: 1px 1px 6px rgb(172, 75, 11);
+  border: 2px solid wheat;
+}
+
+.k:hover {
+  color: rgb(194, 71, 71);
+  text-shadow: 1px 1px 6px rgb(172, 75, 11);
+}
+
+.ff {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15vh;
+  color: rgb(0, 0, 0);
+  font-family: 'poppins', sans-serif;
+  text-shadow: 0px 0px 6px rgb(172, 75, 11);
+  text-decoration: underline;
+  text-decoration-thickness: 6px;
+  font-size: 40px;
+  margin-top: 30px;
+  font-weight: 800;
+}
+
+@media (max-width:991px) {
+  .head {
+    font-size: 18px;
+  }
+
+  .p {
+    font-size: 12px;
+  }
+
+  header {
+    font-size: 45px;
+  }
+
+  .ff {
+    font-size: 35px;
+  }
+  .image img {
+    width: 60%;
+  }
+  .tab {
+    width: 60%;
+  }
+}
+
+@media (max-width:830px) {
+  .ff {
+    font-size: 25px;
+  }
+  
+  .image img {
+    width: 65%;
+  }
+  .tab {
+    width: 65%;
+  }
+}
+
+@media (max-width:580px) {
+  .ff {
+    font-size: 20px;
+  }
+  .image img {
+    width: 70%;
+  }
+  .tab {
+    width: 70%;
+  }
+}
+
+@media (max-width:500px) {
+  .head {
+    font-size: 15px;
+  }
+
+  .p {
+    font-size: 9px;
+  }
+
+  header {
+    font-size: 32px;
+  }
+
+  .ff {
+    font-size: 17px;
+  }
+  .image img {
+    width: 75%;
+  }
+  .tab {
+    width: 75%;
+    font-size: 10px;
+  }
+}
+
+@media (max-width:400px) {
+  .ff {
+    font-size: 15px;
+  }
+  .image img {
+    width: 80%;
+  }
+  .tab {
+    width: 80%;
+    font-size: 9px;
+  }
+}
+
+@media (max-width:370px) {
+  .head {
+    font-size: 10px;
+  }
+
+  .p {
+    font-size: 7px;
+  }
+
+  header {
+    font-size: 27px;
+  }
+
+  .ff {
+    font-size: 13px;
+  }
+}
+
+@media (max-width:330px) {
+  .head {
+    font-size: 8px;
+  }
+
+  .p {
+    font-size: 5px;
+  }
+
+  header {
+    font-size: 25px;
+  }
+
+  .k {
+    font-size: 35px;
+  }
+
+  .ff {
+    font-size: 10px;
+  }
+}
+
+@media (max-width:292px) {
+  .head {
+    font-size: 6px;
+  }
+
+  .p {
+    font-size: 3px;
+  }
+
+  header {
+    font-size: 20px;
+  }
+
+  .k {
+    font-size: 30px;
+  }
+
+  .ff {
+    font-size: 7px;
+  }
+}
